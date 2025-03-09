@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+    background: #9198e5;
+}
+.content-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+    padding: 40px;
+    border-radius: 20px;
+    background: linear-gradient(#e66465, #9198e5);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.301);
+    
+}
+.forme{
+    text-align: center;
+    color: white;
+    font-size: 3em;      
+
+}
+input{
+    margin: 20px;
+    font-size: 2em;
+    border-radius: 10px;
+    width: 100%; 
+}
+label{
+    color: white;
+    font-size: 1em;
+    margin: 10px;
+    padding: 10px;
+}
+#enviar{
+    color: white;
+    background: linear-gradient(#e66465, #9198e5);
+    margin: 20px;
+    padding: 20px;
+}
